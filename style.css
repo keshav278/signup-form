@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    margin: 0;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital@1&family=Yanone+Kaffeesatz:wght@600&display=swap');
+:root{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+ font-weight: bolder;
+}
+
+.picture{
+    background-image: url('alexander-andrews-yOIT88xWkbg-unsplash.jpg');
+    height: 100vh;
+    background-size: cover;
+    width: 1000px;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+p{
+    padding: 20px;
+}    
+.right-side{
+    height: 100vh;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+    
+}
+.left-side{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.4);
+    
+}
+form{
+    
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    margin-left: 10px;
+    gap: 10px;
+    
+}
+.inp{
+    display:flex;
+    flex-direction: column;
+    width: 30em;
+    gap: 2px;
+}
+input{
+   padding: 5px;
+   outline: none;
+}   
+input:focus{
+    border:3px solid rgb(34, 206, 222);
+    box-shadow: 5px 5px 5px grey;
+}
+input[type="password"]:valid{
+    border:3px solid rgb(34, 206, 222);
+    
+}
+input[type="password"]:invalid:focus{
+      border: 3px solid red;
+     
+}
+
+
+button{
+    width: max-content;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color:rgb(151, 10, 38);
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:rgb(194, 111, 111);
+    box-shadow: 5px 5px 5px grey;
+}
+a{
+    color:rgb(24, 125, 125);
+}
+a:visited{
+    color:purple;
+}

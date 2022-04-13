@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Photo by <a href="https://unsplash.com/@alex_andrews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Andrews</a> on <a href="https://unsplash.com/s/photos/space?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  -->
+  
+  <div class="picture">
+      <div class="left-side">
+       <img src="moon-icon-32.png" alt="lol" width="100px">   
+      <h1>Project Moon</h1>
+  </div>
+  </div>
+  <div class="right-side">
+    <p>This is not a real online service! You know you need something
+        like this in your life to help you realize your deepest dreams.
+        Sign up <i>now</i> to get started.</p>
+    <p>You <em>know</em> you want to.</p>
+    <div>
+    Let's do this!
+    <br>
+    <br> 
+    <form action="" method="get">
+        <div class="inp"><label for="firstname">FIRST NAME</label>
+            <input type="text" id="firstname" name="firstname" required></div>
+        <div class="inp"><label for="lastname">LAST NAME</label>
+            <input type="text" id="lastname" name="lastname" required></div>
+        <div class="inp"><label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" required></div>
+        <div class="inp"><label for="phonenumber">PHONE NUMBER</label>
+            <input type="text" name="phonenumber" id="phonenumber" required minlength="9" maxlength="9"></div> 
+        <div class="inp"><label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required></div>
+        <div class="inp"><label for="confirmpw">CONFIRM PASSWORD</label>
+            <input type="password" name="confirmpw" id="confirmpw" required></div>       
+        
+       <button type="submit">Create Account</button>
+    </form>
+     </div>
+    <p>Already have an account? <a href="#">Sign in</a></p>
+  </div>
+</body>
+</html>
